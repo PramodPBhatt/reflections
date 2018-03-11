@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The comparision focused only on the difference/s between the two versions and confined the scope of search 
+    so as to find the bug easily and correct it.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having multiple versions of the entire file or history of the file makes it easy to revert back to any older versions and facilitates handling typos and bugs.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	The pros would be to obtain the required flexibility in commiting and allowing the programmer to decide upon his checkpoint.
+	The con would be succeptable/prone to human error.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In most of the advanced coding often muliple files get affected and it's a imperative to handle such changes/commits as an atomic event. Google docs treat each file as an independent module that has to be maipulated and commited explicitly.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log to obtain the log of all the commits that have been made anlong with commit IDs and timestamp of commit.
+    git diff two find the changes between two commits using commit IDs.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Since the complete history of the file has been saved in the git modifying and switching between the commits enables to detect and remove the bug and to return to original state if everyting goes accorgingly.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Version control the project that I intent to work on.
